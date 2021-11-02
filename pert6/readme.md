@@ -1,18 +1,4 @@
-#include <iostream>
-using namespace std;
-
-void cetakUmur(int umur){ 
- cout<< "Halo, Umur kamu adalah " <<umur <<" tahun"; /** dari yang sudah di ketik tadi nanti akan memasukan ke umur jadi int umur itu memiliki data dari angka yang sudah di ketik tadi **/
-}
-int main(){
- int angka; /** menginisialiasi angka **/
-
- cout<<"masukan umurmu : "; /** memasukan umur **/
- cin>>angka; /** cin berfungsi memasukan data ke umur misal menulis 20 nanti akan di masukan ke dalam inisial angka **/
- cetakUmur(angka); /** menjalankan funsgi dari cetakumur **/
- getchar();
- return 0;
-}
+# Hello Gaes
 
 disini dirubah dari bahasa c ke bahasa c++
  
@@ -22,7 +8,9 @@ ini adalah source code dari source1.cpp disini saya rubah dari bahasa c ke bahas
 ![source1code](https://user-images.githubusercontent.com/93571658/139845161-cc749ffb-e112-472a-a4bc-8e26c39f598e.png)
  ini adalah hasil dari program tersebut
 ![source1](https://user-images.githubusercontent.com/93571658/139845147-32fb8e53-45a7-4bc2-95e1-c95734f23c16.png)
- untuk source2 ini
-![source2 code](https://user-images.githubusercontent.com/93571658/139845168-2f6550b8-7a48-4607-9aba-d102dc6c9536.png)
-![source2](https://user-images.githubusercontent.com/93571658/139845175-31d12507-265c-4c97-a260-0736a8902555.png)
+ untuk source2 ini akan menggunakan program perulangan jadi kita akan memasukan sebuah angka yang nanti akan masuk datanya kedalam int k dsini terdapat 2 yang telah di deklarasikan yaitu n dan k untuk n nanti berguna untuk awal dari perulangan yang dimulai dari 0 dan k nanti untuk berapa banyaknya yang akan di ulang dan berikut untuk kodingan perulangan seperti di bawah ini 
+![source2 code](https://user-images.githubusercontent.com/93571658/139847602-390a0a60-d635-43ea-a3db-7ed74faa0d3c.png)
+dan ini hasil dari perulangan tersebut
+![source2](https://user-images.githubusercontent.com/93571658/139847613-12648ecf-4cb8-4329-8841-9d4c0ecb6196.png)
+
  
