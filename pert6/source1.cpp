@@ -1,17 +1,15 @@
 #include <iostream>
 using namespace std;
 
+void cetakUmur(int umur){
+ cout<< "Halo, Umur kamu adalah " <<umur <<" tahun";
+}  
 int main(){
-	int n, s, i, j;
-    cout<< "Masukkan jumlah baris : "; //memasukan jumalah dari baris.
-    cin >> n; //n nanti akan di jadikan sebuah inisial yang nanti akan di isi oleh jumlah baris yang tadi kita masukan tersebut.
-    for (i = 1; i <= n; i++){ // perulangan ini dilakukan untuk malukan perulangan dari baris yang akan kita masukan.
-        for (s = i; s < n; s++){ // for untuk bagian ini berguna untuk memberikan spasi pada baris
-            cout << " ";
-		}
-        for (j = 1; j <= i; j++){ //perulangan ini memberikan tanda untuk baris tersebut sesuai jumlah yang kita masukan
-                cout << "*";
-                cout << "\n";
-				}
-		}
+ int angka;
+
+ cout<<"masukan umurmu : ";
+ cin>>angka;
+ cetakUmur(angka);
+ getchar();
+ return 0;
 }
